@@ -1,0 +1,47 @@
+This app is a simulation of a school system that allows you to create and manage 
+different types of school-related entities, such as students, teachers, and schools.
+
+The app defines four main classes: Person, Student, Teacher, and School. The Person 
+class is the base class for the other three classes and includes basic information such 
+as name and age.
+
+Class of student is a subclass of Person and includes additional information such as 
+grade level. The Student class also has a method called enroll() which allows a student 
+to enroll in a school.
+
+Class of Teacher is also a subclass of Person and includes additional information 
+such as subject taught. The Teacher class has a method called assign_school() which 
+allows a teacher to be assigned to a school.
+
+The School class is used to create and manage a school. It has a list of students and 
+teachers and methods to add or remove students and teachers. The school class also 
+has a method called info() which returns a string describing the school, including a list 
+of the students and teachers enrolled/assigned there.
+
+In addition to these classes, the app also includes an example usage of the classes to 
+show how they can be used together to create a simulation of a school system. This 
+example creates a school, a few students, and a few teachers and then assigns the 
+students and teachers to the school and prints out information about the school, 
+students and teachers.
+
+The app is built using Python object-oriented programming, which allows for the 
+creation of complex and modular code. Each class has its own methods and 
+properties, and they interact with each other through inheritance, encapsulation, and 
+polymorphism.
+
+Class of Person is the base class for all other classes, and it contains the basic 
+information that all other classes will need, such as name and age. 
+
+Class of Student inherits from the Person class and adds additional information such 
+as grade level, which is specific to students. Additionally, the student class has an 
+enroll() method that allows a student to enroll in a school.
+
+Class of Teacher also inherits from the Person class and adds additional information 
+such as subject taught, which is specific to teachers. Additionally, the teacher class 
+has an assign_school() method that allows a teacher to be assigned to a school.
+
+Finally, the School class is used to create and manage a school and includes a list of 
+students and teachers, and methods to add or remove students and teachers. The 
+school class also has an info() method that returns a string describing the school, 
+including a list of the students and teachers enrolled/assigned there. This app can be 
+further modified to add more functionality as per the requirement of the project.
